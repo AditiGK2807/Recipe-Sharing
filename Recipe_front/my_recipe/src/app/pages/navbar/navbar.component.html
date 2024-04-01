@@ -1,0 +1,17 @@
+<p>
+    <mat-toolbar class="flex items-center justify-between" color="primary">
+        <div>
+            <span>Welcome to Silver Spoons</span>
+        </div>
+        <div>
+            <span class="example-spacer" style="float: right;"></span>
+            
+            <span>{{user.fullName}}</span>
+
+            <button (click)="onLogoutClick()" mat-icon-button aria-label="Example icon button with a home icon">
+                <mat-icon>logout</mat-icon>
+              </button>
+        </div>
+
+    </mat-toolbar>
+</p>
